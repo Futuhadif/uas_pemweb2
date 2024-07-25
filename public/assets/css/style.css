@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'LilitaOne';
+    src: url(../fonts/LilitaOne-Regular.ttf);
+}
+
+body{
+    background-image: url('../image/background.jpg'); /* Ganti 'gambar.jpg' dengan lokasi dan nama file gambar Anda */
+    background-size: cover;
+}
+
+
+.navbar-brand{
+    font-family: 'LilitaOne';
+    font-size: 30px;
+    color: yellow;
+    text-decoration: none; /* Menghapus garis bawah default */
+    border-bottom: 5px solid rgb(20, 142, 223); /* Menambahkan garis bawah */
+    border-radius: 10px; /* Membuat bentuk oval */
+}
+
+.navbar-brand span {
+    font-family: Arial, sans-serif; /* Menggunakan font Arial, jika tidak tersedia, gunakan font sans-serif */
+    font-style: italic; /* Membuat teks menjadi italic */
+    color: #00ff00; /* Memberikan warna hijau cerah */
+}
+
+
+
+.navbar-nav .nav-link {
+    font-family: Arial, sans-serif; 
+    font-weight: bold; /* Menggunakan font tebal */
+    background-color: #007bff; /* Warna latar belakang biru */
+    border-radius: 20px; /* Untuk membuat latar belakang berbentuk oval */
+    padding: 10px 20px; /* Ukuran padding agar tampilan lebih baik */
+    margin: 0 10px; 
+    color: white; /* Warna teks putih */
+    transition: background-color 0.3s ease;
+}
+
+.nav-link.active{
+    background-color: rgb(107, 143, 221); 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    margin: 0 10px;
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: rgb(140, 238, 164);
+}
+
+#content-container{
+    margin-top: 30px;
+}
+
+.content-right {
+    background-color: rgba(255, 255, 255, 0.5) !important; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.content-right .teks-content{
+    padding: 50px;
+    text-align: justify; /* Menambahkan teks rata kanan-kiri */
+}
+
+.link {
+    text-decoration: none; /* Menghapus garis bawah default */
+    border-bottom: 4px solid black; /* Menambahkan garis bawah */
+    font-size: 22px; /* Menyesuaikan ukuran font */
+    font-family: Arial, sans-serif; /* Menyesuaikan jenis font */
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    margin-right: 20px; /* Menambahkan jarak antara kedua tautan */
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    color: black;
+    text-decoration: none; /* Menghapus garis bawah default */
+    border-bottom: 4px solid black; /* Menambahkan garis bawah */
+    font-size: 26px;
+}
+
+
+
+/*untuk register*/
+.form-register{
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.5) !important; /* Tambahkan !important untuk menetapkan properti secara lebih spesifik */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.santri2{
+    border-radius: 10px; 
+    
+}
+
+/* halaman sukses regiter*/
+.success-container{
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Tambahkan margin di atas foto */
+}
+
+.text-below-image {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.login-container{
+    border-radius: 20px;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+
+.santri2b{
+    border-radius: 50px; 
+}
+
+.login-container {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login-container h2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(105, 102, 102);
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+/*halaman home*/
+
+.home-container{
+    background-color: white;
+    border-radius: 30px;
+    height: fit-content;
+    padding: 30px;
+}
+
+.materi1{
+    border-radius: 30px;
+}
+
+.santri4 {
+    height: 300px;
+    width: 300px;
+    border-radius: 100px;
+    transition: transform 1s ease;
+    box-shadow: 10px 10px;
+
+}
+
+.col-md-6.image-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-6.image-center:hover .santri4 {
+    transform: scale(1.2); /* Memperbesar gambar saat hover */
+}
+
+.teks-home{
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.5) !important; /* Tambahkan !important untuk menetapkan properti secara lebih spesifik */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+
+/*untuk list santri*/
+
+.list-santri-container{
+    background-color: white;
+    border-radius: 20px;
+    height: 500px;
+}
